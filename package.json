@@ -1,0 +1,22 @@
+{
+  "name": "mobile-protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./conf/protractor.conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "appium",
+    "android"
+  ],
+  "author": "Aleksandr Balakirev",
+  "license": "ISC",
+  "dependencies": {
+    "appium-doctor": "^1.16.0",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "protractor": "^7.0.0"
+  }
+}
